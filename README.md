@@ -14,9 +14,9 @@ Usage of ./splitter:
   -numb int
         Number of files to split the target file into (default 2)
   -post string
-        String to append to the output
+        String to append to the output file
   -pre string
-        String to prepend to output
+        String to prepend to output file
   -target string
         Target File to split
 ````
