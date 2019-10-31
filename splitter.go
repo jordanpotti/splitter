@@ -35,7 +35,7 @@ func split(target string, number int, pre string, post string, total int) {
             f, _ := os.Create (pre + strconv.Itoa(j) + post)
             defer f.Close()
             for _, element := range txtlines {
-				element = element + "\r\n"
+				element = element + "\n"
                 f.WriteString(element)
 			 }
 			 txtlines = nil
